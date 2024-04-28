@@ -1,0 +1,33 @@
+name: Bug Report
+description: Report a bug with the StrawberrySMP
+labels: ["Bug: Unconfirmed"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for making a report! Please make sure to provide the following
+        1. Screenshots in available
+        2. Make sure the issue hasnt been reported yet.
+  - type: textarea
+    id: bug-description
+    attributes:
+      label: Describe the bug
+      description: Describe the bug in as best as you can.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: How to reproduce
+      description: Please leave a instructions to reproduce the issue.
+    validations:
+      required: true
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots / Videos
+      description: Screenshots and/or videos of the bug in action.
+      placeholder: |-
+        link to images etc, 
+    validations:
+      required: false
