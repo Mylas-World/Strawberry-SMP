@@ -1,2 +1,2 @@
 # Strawberry-SMP
-Repository for issues regarding the StrawberrySMP
+Repository for planning and issues regarding the StrawberrySMP
